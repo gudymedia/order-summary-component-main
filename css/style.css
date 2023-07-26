@@ -1,0 +1,180 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: hsl(225, 100%, 94%);
+  font-size: 16px;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  background: url(/images/pattern-background-desktop.svg) no-repeat top/cover;
+  background-position-y: -6rem;
+}
+.box{
+  margin-top: 8rem;
+  width:260px;
+  height: auto;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 15px;
+}
+.svg-image{
+  border-radius: 15px 15px 0 0;
+  width: 100%;
+  height: 130px;
+  background: url(/images/illustration-hero.svg) no-repeat center/cover;
+}
+.box .sub-texts{
+  padding: 10px;
+  text-align: center;
+  width: 90%;
+  margin: 0 auto .7rem;
+  
+}
+.sub-texts>h3{
+  color: hsl(223, 47%, 23%);
+  margin: 1.5rem 0 .8rem;
+}
+.sub-texts>p{
+  color: hsl(224, 23%, 55%);
+  font-size: 11px;
+}
+.plan{
+  display: flex;
+  background-color: hsla(224, 23%, 55%, 0.043);
+  align-items: center;
+  justify-content: space-between;
+  padding:10px;
+  width: 100%;
+  margin: 1rem 0;
+  border-radius: 5px;
+}
+.plan img{
+  width: 30px;
+  height: 30px;
+}
+.plan a{
+  font-size: 10px;
+  color: hsl(245, 75%, 52%);
+  font-weight: bold;
+  transition: all 1s ease-in-out;
+}
+.plan a:hover{
+  text-decoration: none;
+  color: hsla(245, 75%, 52%, 0.777);
+  transition: all 1s ease-in-out;
+}
+.plan-text{
+ margin-right: 2rem;
+}
+.plan-text h4,
+.plan-text p{
+  font-size: 12px;
+}
+.plan-text p{
+  color: hsl(224, 23%, 55%);
+}
+.sub-texts a input[type="button"]{
+  padding: 10px;
+  width: 100%;
+  border: none;
+  color: hsl(225, 100%, 98%);
+  background-color: hsl(245, 75%, 52%);
+  border-radius: 5px;
+  font-size: 10px;
+  margin-bottom: .5rem;
+  box-shadow: 0 5px 10px hsla(245, 75%, 52%, 0.306);
+  transition: all 1s ease-in-out;
+}
+.sub-texts a input[type="button"]:hover{
+  background-color:  hsla(245, 75%, 52%, 0.777);
+  transition: all 1s ease-in-out;
+}
+
+.sub-texts a.cancel{
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: bold;
+  color: hsla(223, 47%, 23%, 0.654);
+  transition: all 1s ease-in-out;
+}
+.sub-texts a.cancel:hover{
+  color: hsla(223, 47%, 23%);
+  transition: all 1s ease-in-out;
+}
+
+
+.attribution {
+  margin-top: 10rem;
+  font-size: 11px;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+.footer{
+  /* display: none; */
+}
+@media(max-width: 570px){
+  body{
+    background-color: hsl(225, 100%, 98%);
+  }
+  .box{
+    width: 100%;
+    height: 100%;
+    margin-top: 0;
+    border-radius: 20px;
+  }
+  .svg-image{
+    border-radius: 0;
+    height: 180px;
+  }
+  .main-container{
+    height: 100vh;
+  }
+  
+.sub-texts>h3 {
+  font-size: 30px;
+}
+.sub-texts>p {
+  font-size: 18px;
+  margin: 1rem 0 1.7rem;
+}
+.plan-text{
+  margin-right: 3rem;
+}
+.plan img{
+  width: 50px;
+  height: 50px;
+}
+.plan a{
+  font-size: 15px;
+}
+.plan-text h4,
+ .plan-text p{
+  font-size: 18px;
+}
+.sub-texts a input[type="button"]{
+  padding: 20px;
+  margin-top: 9rem;
+  margin-bottom: 1.5rem;
+  font-size: 15px;
+}
+.attribution {
+  margin: 1rem auto;
+  font-size: 11px;
+}
+ 
+}
