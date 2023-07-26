@@ -32,7 +32,7 @@ body {
   border-radius: 15px 15px 0 0;
   width: 100%;
   height: 130px;
-  background: url(/images/illustration-hero.svg) no-repeat center/cover;
+  background: url(../images/illustration-hero.svg) no-repeat center/cover;
 }
 .box .sub-texts{
   padding: 10px;
@@ -124,9 +124,7 @@ body {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
-.footer{
-  /* display: none; */
-}
+
 @media(max-width: 570px){
   body{
     background-color: hsl(225, 100%, 98%);
